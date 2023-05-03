@@ -191,12 +191,12 @@ footer{
 }
 .content_footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 4%;
+    margin-right: 50px;
     gap: 10%;
     padding: 10px;
-    margin-right: 15%;
+    
 }
 .content_footer .logo_footer{
     width: 100%;
@@ -280,7 +280,7 @@ footer{
 }
 @media (min-width: 1200px){
     .body_content{
-        margin-top:20% ;
+        margin-top:10% ;
     }
     .card{
         width: 90%;
